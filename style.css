@@ -1,0 +1,355 @@
+* {
+   margin: 0;
+   padding: 0;
+   font-family: Rubik, Roboto, sans-serif;
+   font-size: 18px;
+   color: #070707;
+ }
+ a {
+   transition: 0.3s;
+   text-decoration: none;
+ }
+ .body {
+   max-width: 945px;
+   margin: auto;
+ }
+ .menu {
+   display: block;
+ }
+ .menu__ul {
+   list-style: none;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   max-width: 945px;
+   margin: auto;
+ }
+ .menu__link {
+   color: #828282;
+   font-weight: 600;
+   margin: auto;
+ }
+ .menu__link:hover {
+   color: #070707;
+   text-decoration: underline double gray;
+   text-shadow: 3px 3px 2px #f35;
+ }
+ .menu__hr {
+   border-bottom: 1px solid #828282;
+   height: 1px;
+   max-width: 940px;
+   margin: 42px auto 40px;
+ }
+ .home {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   background: #fff;
+   min-height: 640px;
+   overflow: hidden;
+ }
+ .home__name {
+   max-width: 350px;
+   font-size: 48px;
+   line-height: 59px;
+   font-weight: 600;
+   color: #070707;
+   height: 118px;
+ }
+ .home__link {
+   font-size: 16px;
+   line-height: 20px;
+   color: #828282;
+ }
+ .home a {
+   color: #070707;
+ }
+ .home a:hover {
+   text-shadow: 3px 3px 2px #f35;
+ }
+ .home__whois {
+   margin: 36px auto 0;
+   text-align: center;
+   height: 118px;
+ }
+ .home__language {
+   writing-mode: vertical-rl;
+   width: 30px;
+   text-align: center;
+   transform: rotate(180deg);
+   height: 118px;
+ }
+ .home__photo {
+   width: 100%;
+   min-height: 387px;
+   margin: 30px 0;
+   background: url("https://i.ibb.co/3vJT1hy/BSPP2266.png");
+   background-size: contain;
+   background-repeat: no-repeat;
+ }
+ .about {
+   min-height: 506px;
+   background: #f6f6f6;
+   overflow: hidden;
+ }
+ .about__title,
+ .skills__title,
+ .pf__title,
+ .contacts__title {
+   text-align: center;
+   font-size: 34px;
+   line-height: 42px;
+   color: #070707;
+ }
+ .about__line {
+   border-bottom: 1px solid #f6f6f6;
+   height: 1px;
+   box-sizing: border-box;
+ }
+ .about__title {
+   margin: 120px auto 0;
+ }
+ .skills {
+   min-height: 600px;
+   overflow: hidden;
+ }
+ .skills__title {
+   margin: 91px auto 0;
+ }
+ .pf__title {
+   margin: 112px auto 47px;
+ }
+ .contacts__title {
+   margin: 114px auto 20px;
+ }
+ .about__text {
+   text-align: center;
+   margin: 32px auto;
+   max-width: 485px;
+   font-size: 18px;
+   line-height: 22px;
+ }
+ .skills__text {
+   text-align: center;
+   margin: 69px auto 83px;
+ }
+ .skills__boxes {
+   display: flex;
+   flex-wrap: wrap;
+   max-width: 100%;
+   justify-content: space-between;
+ }
+ .skills__box {
+   width: 166px;
+ }
+ .skills__pict {
+   display: flex;
+ }
+ .skills__pic {
+   margin: auto;
+ }
+ .skills__rating {
+   display: flex;
+   justify-content: space-between;
+   margin: 0 auto 32px;
+ }
+ .skills__name {
+   margin: 23px auto 41px;
+   text-align: center;
+   max-width: 102px;
+ }
+ .skills__hidden {
+   color: #fff;
+ }
+ .pf {
+   background: #f6f6f6;
+   min-height: 2253px;
+   text-align: center;
+   overflow: hidden;
+ }
+ .contacts {
+   min-height: 612px;
+   text-align: center;
+   overflow: hidden;
+ }
+ .pf__box0 {
+   background: url("https://i.ibb.co/3rTmDhR/8.png");
+   background-repeat: no-repeat;
+   background-size: contain;
+   min-height: 510px;
+ }
+ .pf__box1 {
+   background: url("https://i.ibb.co/vH2GVH4/reebok-web.png");
+   background-repeat: no-repeat;
+   background-size: contain;
+   min-height: 522px;
+ }
+ .pf__box2 {
+   background: url("https://i.ibb.co/LxjDsgn/reebok-web-1.png");
+   background-repeat: no-repeat;
+   background-size: contain;
+   min-height: 522px;
+ }
+ .pf__text {
+   margin: 45px auto 99px;
+ }
+ .contacts__input {
+   margin: 30px auto 86px;
+   width: 180px;
+   height: 42px;
+   border-radius: 21px;
+   background: #070707;
+   color: #fff;
+   font-size: 18px;
+   line-height: 22px;
+   cursor: pointer;
+ }
+ .contacts__input:hover {
+   background: #f6f6f6;
+   color: #070707;
+   box-shadow: 3px 3px 5px gray;
+ }
+ .contacts__note {
+   margin: 45px auto;
+ }
+ .contacts__boxes {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   max-width: 342px;
+   margin: auto;
+ }
+ .menu__burger {
+   width: 33px;
+   height: 28px;
+   cursor: pointer;
+   display: none;
+   transition: 0.3s;
+ }
+ .menu__burger:hover {
+   box-shadow: 3px 3px 5px gray;
+ }
+ .menu__line {
+   width: 33px;
+   height: 4px;
+   background: #000;
+   margin: 4px 0;
+   border-radius: 2px;
+ }
+ .mobil {
+   display: none;
+ }
+ .mobil__box {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   margin: 66px 26px;
+ }
+ .mobil__close {
+   background: #fff;
+   border: 1px solid #fff;
+   width: 32px;
+   height: 32px;
+ }
+ .mobil__ul {
+   list-style: none;
+ }
+ .mobil__ul li {
+   margin: 0 0 40px 0;
+   font-size: 34px;
+   line-height: 42px;
+ }
+ .mobil__link {
+   color: #828282;
+ }
+ .mobil__link:hover {
+   color: #000;
+   box-shadow: 3px 3px 5px gray;
+ }
+ .mobil__language {
+   writing-mode: vertical-lr;
+   transform: rotate(180deg);
+   font-size: 34px;
+   line-height: 42px;
+   height: 100px;
+   margin: 360px 0 0;
+   text-align: right;
+ }
+ .mobil__btn {
+   cursor: pointer;
+ }
+ 
+ .fixed {
+   position: fixed;
+   top: 0;
+   z-index: 50;
+   display: flex;
+   width: 100%;
+ }
+ .scroll {
+   opacity: 0;
+   transform: translateX(720px) translateY(-400px) rotate(-760deg);
+   transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+   overflow: hidden;
+ }
+ .scroll.animation {
+   opacity: 1;
+   transform: translateX(0);
+   transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+   transition-delay: 50ms;
+ }
+ 
+ @media screen and (max-width: 400px) {
+   .menu__ul,
+   .menu__hr,
+   .home__language {
+     display: none;
+   }
+   .menu__burger {
+     display: block;
+     position: absolute;
+     right: 25px;
+     margin: 10px 0;
+   }
+   .body {
+     margin: 65px 25px;
+   }
+   .home__whois {
+     margin: 23px 100px 0 0;
+   }
+   .home__photo {
+     background: url("https://i.ibb.co/fnx4VSs/BSPP2267.png");
+     height: 478px;
+     margin: auto;
+     max-width: 316px;
+     background-size: contain;
+     background-repeat: no-repeat;
+   }
+   .skills__box {
+     margin: 0 auto 80px;
+   }
+   .about__text {
+     max-width: 316px;
+   }
+   .pf__text {
+     margin: 33px auto 78px;
+   }
+   .pf__box0,
+   .pf__box1,
+   .pf__box2 {
+     min-height: 176px;
+     margin: 0 auto;
+   }
+   .pf {
+     min-height: 1118px;
+   }
+   .mobil {
+     position: fixed;
+     z-index: 51;
+     top: 1px;
+     left: 1px;
+     width: 100%;
+     background: #ffffff;
+   }
+ }
+ 

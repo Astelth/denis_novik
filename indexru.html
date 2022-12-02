@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>Портфолио</title>
+</head>
+
+<body>
+  <div class="body">
+    <div class="menu">
+      <ul class="menu__ul">
+        <li><a href="#0" class="menu__link">Домой</a></li>
+        <li><a href="#1" class="menu__link">Обо мне</a></li>
+        <li><a href="#2" class="menu__link">Навыки</a></li>
+        <li><a href="#3" class="menu__link">Портфолио</a></li>
+        <li><a href="#4" class="menu__link">Контакты</a></li>
+      </ul>
+      <div class="menu__burger" onclick="openMobilMenu()">
+        <div class="menu__line"> </div>
+        <div class="menu__line"> </div>
+        <div class="menu__line"> </div>
+      </div>
+    </div>
+    <div class="menu__hr"></div>
+
+    <div class="mobil">
+      <div class="mobil__box">
+        <ul class="mobil__ul">
+          <li><a href="#0" class="mobil__link" onclick="closeMobilMenu()">Домой</a></li>
+          <li><a href="#1" class="mobil__link" onclick="closeMobilMenu()">Обо мне</a></li>
+          <li><a href="#2" class="mobil__link" onclick="closeMobilMenu()">Навыки</a></li>
+          <li><a href="#3" class="mobil__link" onclick="closeMobilMenu()">Портфолио</a></li>
+          <li><a href="#4" class="mobil__link" onclick="closeMobilMenu()">Контакты</a></li>
+        </ul>
+        <div class="mobil__close"><img src="https://i.ibb.co/JvdhdS0/closex.png" alt="закрыть" class="mobil__btn" onclick="closeMobilMenu()">
+
+          <div class="mobil__language">
+            <span class="home__link">RU | </span><a href="index.html" class="mobil__link">ENG</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="home" id="0">
+      <div class="home__name">Денис<br>Новик</div>
+
+      <div class="home__whois scroll">
+        <p>UX | UI дизайнер</p>
+        <p>24 года, Минск</p>
+      </div>
+      <div class="home__language">
+         <span class="home__link">RU | </span><a href="index.html" class="home__link">ENG</a>
+      </div>
+      <div class="home__photo scroll"></div>
+    </div>
+
+    <div class="about">
+      <div class="about__line"></div>
+      <h2 class="about__title scroll" id="1">Обо мне</h2>
+      <p class="about__text scroll">Привет, я Денис - UX/UI дизайнер из Минска.
+         Интересуюсь дизайном и всем, что касается него.</p>
+      <p class="about__text scroll">Я учусь на курсе "Дизайн интерфейсов в web и мобильных приложениях" в IT-Академии.</p>
+      <p class="about__text scroll">Готов реализовать отличные проекты с замечательными людьми.</p>
+    </div>
+    <div class="skills">
+      <h2 class="skills__title" id="2">Навыки</h2>
+      <p class="skills__text scroll">Я работаю в следующих программах:</p>
+      <div class="skills__boxes">
+        <div class="skills__box">
+          <div class="skills__pict">
+            <img src="https://i.ibb.co/jVKtKdH/ps.png" alt="Adobe Photoshop" class="skills__pic scroll">
+          </div>
+          <div class="skills__name scroll">Adobe
+            Photoshop</div>
+          <div class="skills__rating scroll">
+            <img src="https://i.ibb.co/tXnJtvS/Star.png" alt="1" class="skills__star">
+            <img src="https://i.ibb.co/tXnJtvS/Star.png" alt="2" class="skills__star">
+            <img src="https://i.ibb.co/tXnJtvS/Star.png" alt="3" class="skills__star">
+            <img src="https://i.ibb.co/tXnJtvS/Star.png" alt="4" class="skills__star">
+            <img src="https://i.ibb.co/MCQHq28/Star-1.png" alt="no star" class="skills__star">
+          </div>
+        </div>
+        <div class="skills__box">
+          <div class="skills__pict">
+            <img src="https://i.ibb.co/RPVXtj4/ai.png" alt="Adobe Illustrator" class="skills__pic scroll">
+          </div>
+          <div class="skills__name scroll">Adobe Illustrator</div>
+          <div class="skills__rating scroll">
+            <img src="https://i.ibb.co/tXnJtvS/Star.png" alt="1" class="skills__star">
+            <img src="https://i.ibb.co/tXnJtvS/Star.png" alt="2" class="skills__star">
+            <img src="https://i.ibb.co/tXnJtvS/Star.png" alt="3" class="skills__star">
+            <img src="https://i.ibb.co/MCQHq28/Star-1.png" alt="4" class="skills__star">
+            <img src="https://i.ibb.co/MCQHq28/Star-1.png" alt="no star" class="skills__star">
+          </div>
+        </div>
+        <div class="skills__box">
+          <div class="skills__pict">
+            <img src="https://i.ibb.co/dt84vYJ/ae.png" alt="Adobe After Effects" class="skills__pic scroll">
+          </div>
+          <div class="skills__name scroll">Adobe After Effects</div>
+          <div class="skills__rating scroll">
+            <img src="https://i.ibb.co/tXnJtvS/Star.png" alt="1" class="skills__star">
+            <img src="https://i.ibb.co/tXnJtvS/Star.png" alt="2" class="skills__star">
+            <img src="https://i.ibb.co/tXnJtvS/Star.png" alt="3" class="skills__star">
+            <img src="https://i.ibb.co/tXnJtvS/Star.png" alt="4" class="skills__star">
+            <img src="https://i.ibb.co/MCQHq28/Star-1.png" alt="no star" class="skills__star">
+          </div>
+        </div>
+        <div class="skills__box">
+          <div class="skills__pict">
+            <img src="https://i.ibb.co/pLjzMXp/figma.png" alt="Figma" class="skills__pic scroll">
+          </div>
+          <div class="skills__name scroll">Figma<br><span class="skills__hidden">Figma</span></div>
+          <div class="skills__rating scroll">
+            <img src="https://i.ibb.co/tXnJtvS/Star.png" alt="1" class="skills__star">
+            <img src="https://i.ibb.co/tXnJtvS/Star.png" alt="2" class="skills__star">
+            <img src="https://i.ibb.co/tXnJtvS/Star.png" alt="3" class="skills__star">
+            <img src="https://i.ibb.co/tXnJtvS/Star.png" alt="4" class="skills__star">
+            <img src="https://i.ibb.co/MCQHq28/Star-1.png" alt="no star" class="skills__star">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="pf">
+      <div class="about__line"></div>
+      <h2 class="pf__title" id="3">Портфолио</h2>
+      <div class="pf__box0 scroll"></div>
+      <p class="pf__text">Онлайн-магазин моды - сайт</p>
+      <div class="pf__box1 scroll"></div>
+      <p class="pf__text">Магазин Reebok - Концепция</p>
+      <div class="pf__box2 scroll"></div>
+      <p class="pf__text">Лэндинг Braun - Концепция</p>
+    </div>
+
+    <div class="contacts" id="4">
+      <h2 class="contacts__title">Контакты</h2>
+      <div class="contacts__text">Хотите знать больше или просто написать?<p>Добро пожаловать!</p>
+      </div>
+      <form action="https://t.me/Astelth" class="contacts__form" target="_blank">
+        <button class="contacts__input">Send message</button>
+      </form>
+      <div class="contacts__boxes">
+        <div class="contacts__box"><img src="https://i.ibb.co/QXrLnBQ/Group-2.png" alt="linkedin" class="contacts__pic"></div>
+        <div class="contacts__box"><img src="https://i.ibb.co/mN77b74/Group-8.png" alt="instagram" class="contacts__pic"></div>
+        <div class="contacts__box"><img src="https://i.ibb.co/T0ghyQf/Group-9.png" alt="behance" class="contacts__pic"></div>
+        <div class="contacts__box"><img src="https://i.ibb.co/j48ds6B/Group-10.png" alt="dribble" class="contacts__pic"></div>
+      </div>
+      <div class="contacts__note">Оставьте лайк в
+        LinkedIn, Instagram, Behance, Dribble</div>
+    </div>
+
+  </div>
+  <!--body-->
+</body>
+<script src="main.js">
+</script>
+</html>
